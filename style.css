@@ -1,0 +1,99 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.menu-container{
+    align-items: center;
+    height: 58px;
+    display: flex;
+    color:white;
+    background-color: rgb( 32, 32, 32);
+    justify-content: space-around;
+}
+.menus ul{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.menus ul li{
+    margin-left: 5px;
+    margin-left: 35px;
+    list-style: none;
+    font-size: 18px;
+   
+    
+}
+/* banner section */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid grey; */
+    background-image: url(images/background.png),
+    linear-gradient(45deg,#0d0d0d,#272525);
+
+}
+
+.banner-text{
+    color:white;
+    height: 158px;
+    width: 60%;
+
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color:white;
+    font-family: sans-serif;
+
+}
+.description{
+font-family: 'Courier New', Courier, monospace;
+font-size:18px;
+margin-top:15px;
+margin-bottom:15px;
+}
+.banner-photo{
+
+}
+
+.banner-photo img{
+    width: 334px;
+}
+
+.btn{
+    padding:10px 20px;
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 2px;
+}
+.btn:hover{
+    color:red;
+    background-color: white;
+    cursor:pointer;
+}
+/* 
+about section */
+
+
+.about-us{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 500px;
+}
+
+.about-text{
+    
+    width: 60%;
+}
+.about-header{
+ text-align: center;
+ padding-top: 20px;
+ font-size:55px;
+}
